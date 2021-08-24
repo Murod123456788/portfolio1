@@ -1,0 +1,50 @@
+
+@keyframes fadeInUp {
+    from{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.fadeInUp {
+    animation-name: fadeInUp;
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes animNav{
+    from{
+        transform: translateY(-30px);
+        opacity: .3;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+// Portfolio anim.
+ 
+
+@keyframes portfolioAnim{
+    from{
+        transform: translateY(-90px);
+        opacity: .3;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

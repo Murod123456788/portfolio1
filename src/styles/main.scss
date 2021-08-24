@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+
+
+//Mixsins 
+
+@mixin PageTitle {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Monrserrant', sans-serif;
+   letter-spacing: 2px;
+    color: white;
+    margin: 0;
+}
+
+@mixin  PageTitle2 {
+    font-size: 30px;
+    color: green;
+    font-family: 'Monrserrant', sans-serif;
+    letter-spacing: .7px;
+}
+
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: black;
+}
+
+nav{
+    padding: 15px 80px !important;
+    animation: animNav 1s ease; 
+    .navbar-brand{
+        font-size: 25px;
+        b{ 
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: white;
+        }
+    }
+
+    .navbar-nav {
+        margin-left: auto;
+        .nav-item {
+            margin: 20px;
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+            a{
+                color: #848484 !important;
+                text-decoration: none !important;
+                transition: .2s;
+                margin: 20px;
+                &:hover{
+                    color: green !important;
+                    text-decoration: none;
+                }
+                
+            }
+        }
+
+    }
+}
+
+nav > .fixed {
+    padding:  15px 80px !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    background: #000;
+    box-shadow: 0 5px 15px;
+}
+
+
+.images {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+}
+
+
+.aboutInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding: 70px;
+     .side1 {
+         width: 55%;
+         margin: 20px 0;
+         .title {
+             font-size: 70px;
+             font-family: 'Monrserrant', sans-serif;
+             color: white;
+         }
+         .description {
+             width: 75%;
+             color: #AAA;
+             margin: 15px 3px 60px;
+             font-size: 20px;
+             font-family: 'Monrserrant', sans-serif;
+         }
+         .buttons {
+             .linkBtn{
+                 background-color: rgb(128, 113, 113);
+                 padding: 17px 40px;
+                 color: green;
+                 font-size: 20px;
+                 text-decoration: none;
+                 font-family: 'Monrserrant', sans-serif;
+                 font-weight: 700;
+                 &:nth-child(2) {
+                     margin-left: 10px;
+                     background-color: green;
+                     color: #000;
+                 }
+             }
+         }
+         .socialNet {
+             margin-top: 45px;
+             .links{
+                 padding: 0 30px 0 0;
+                 .nets {
+                     font-size: 35px;
+                     color: white;
+                     &:hover {
+                         color: green;
+                     }
+                 }
+             }
+         }
+     }
+    //  .side2 {
+
+    //  }
+}
+
+// portfolio
+
+.titles {
+    text-align: center;
+    margin-top: 75px;
+    .title1 {
+        @include PageTitle();
+    }
+    .title2 {
+        @include PageTitle2();
+    }
+}
