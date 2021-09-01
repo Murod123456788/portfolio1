@@ -20,11 +20,66 @@
 }
 
 
+@mixin laptopSpecs {
+    ul {
+        a {
+            display: flex;
+            text-decoration: none;
+            cursor: pointer;
+            svg {
+                color: white !important;
+                font-size: 30px;
+                margin: 0 5px;
+                transition: .3s ease;
+            }
+            h2 {
+                font-family: 'Monrserrant', sans-serif;
+                color: white;
+                font-weight: 600;
+            }
+
+
+            &:hover svg {
+                transform: rotate(25deg);
+            }
+        }
+
+        li {
+            color: green;
+            font-family: 'Monrserrant', sans-serif;
+            margin: 20px 30px 10px;
+            font-size: 20px;
+            width: 100%;
+        }
+
+    }
+}
+
+@mixin  keyboardSpecs {
+    ul {
+        h2 {
+            font-family: 'Monrserrant', sans-serif;
+            color: white;
+            font-weight: 600;
+            width: 100%;
+        }
+        li {
+            color: green;
+            font-family: 'Monrserrant', sans-serif;
+            margin: 20px 30px 10px;
+            font-size: 20px;
+            width: 100%;
+        }
+    }
+}
+
+
 html {
     overflow-x: hidden;
 }
 
 body {
+    overflow-x: hidden;
     background-color: black;
 }
 
@@ -43,7 +98,7 @@ nav{
     .navbar-nav {
         margin-left: auto;
         .nav-item {
-            margin: 20px;
+            // margin: 20px;
             font-size: 20px;
             font-family: 'Montserrat', sans-serif;
             a{
@@ -62,15 +117,16 @@ nav{
     }
 }
 
-nav > .fixed {
+nav.fixed {
     padding:  15px 80px !important;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 99;
     width: 100%;
-    background: #000;
-    box-shadow: 0 5px 15px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(36, 30, 30, 0.747) ;
+    box-shadow: 0 5px 15px #161313de;
 }
 
 
@@ -81,7 +137,7 @@ nav > .fixed {
 }
 
 
-.aboutInfo {
+.aboutInfo1 {
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
@@ -131,9 +187,9 @@ nav > .fixed {
              }
          }
      }
-    //  .side2 {
+     .side2 {
 
-    //  }
+     }
 }
 
 // portfolio
@@ -146,5 +202,129 @@ nav > .fixed {
     }
     .title2 {
         @include PageTitle2();
+    }
+}
+
+.row {
+    .col-md-12 {
+        padding-top: 50px;
+        .projectCard {
+            display: flex;
+            justify-content: center;
+            margin: 50px 0;
+            .projectImage {
+                width: 50%;
+            }
+            .projectInfo {
+                margin: 30px 50px;
+                .projectAbout {
+                    .projectName {
+                        color: white;
+                        font-weight: 600;
+                        font-family: 'Monrserrant', sans-serif;
+                    }
+                    .projectPara {
+                        color: #AAA;
+                        margin: 10px 0 50px;
+                        font-family: 'Monrserrant', sans-serif;
+                    }
+                }
+                .projectButtons {
+                    
+                    .nuttons {
+                        
+                        background-color: #2B2B2B;
+                        padding: 17px 35px;
+                        color: white;
+                        font-size: 20px;
+                        text-decoration: none;
+                        font-family: 'Monrserrant', sans-serif;
+                        font-weight: 500;
+                        svg {
+                            margin: 0 10px 0;
+                        }
+                        &:nth-child(2){
+                            background-color: green;
+                            color: black;
+                            margin-left: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// setup
+
+
+.setupMain {
+    .setupImage {
+        display: flex;
+        justify-content: center;
+        img {
+            margin-top: 100px;
+            width: 50%;
+            border-radius: 10px;
+        }
+    }
+    .container {
+        .row {
+            justify-content: center;
+            .col-md-8 {
+                .mySetup{
+                    padding: 50px 75px;
+                    display: grid;
+                    grid-template-columns: auto auto;
+                    .laptopSpecs {
+                        margin-bottom: 40px;
+                        @include laptopSpecs()
+                    }
+                    .keyboardSpecs {
+                        width: 150%;
+                        @include keyboardSpecs()
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// about-me
+
+.info {
+    display: flex;
+    padding: 90px;
+    .myImage {
+        width: 50% !important;
+        height: 50%;
+    }
+    span {
+        
+        .aboutmeText {
+            padding: 0 0 30px 45px;
+            font-size: 23px;
+            width: 95%;
+            color: white;
+            font-family: 'Monrserrant', sans-serif;
+        }
+        div {
+            margin: 30px 0 30px;
+        }
+    }
+}
+
+
+// footer
+
+.footer {
+    padding: 20px 0 0 ;
+    border-top: 1px solid #aaa;
+    text-align: center;
+    p {
+        font-size: 17px;
+        color: white;
+        font-family:  'Monrserrant', sans-serif;
     }
 }

@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
 import Reveal from 'react-reveal/Reveal'
 
 
+
 const AboutInfo = () => {
 
 
@@ -21,7 +22,7 @@ const AboutInfo = () => {
    return (
 
    
-       <div className="aboutInfo"> 
+       <div className="aboutInfo1"> 
            {portfolios.map(portfolio => (
                <>
                     <div className="side2">
@@ -33,7 +34,7 @@ const AboutInfo = () => {
                         <p className="description"> {portfolio.description} </p>
                       </Reveal>
                         <div className="buttons">
-                            <Link className="linkBtn" to="/">
+                            <Link className="linkBtn" to="/about-me">
                                 About me
                             </Link>
                             <Link className="linkBtn" to="/portfolio">
@@ -44,7 +45,7 @@ const AboutInfo = () => {
                             <a className="links" href="#" target="_blank">
                                 <TelegramIcon className="nets"/>
                             </a>
-                            <a className="links" href="#" target="_blank">
+                            <a className="links" href="https://github.com/Murod123456788" target="_blank">
                                 <GitHubIcon className="nets"/>
                             </a>
                         </div>

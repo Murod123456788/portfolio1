@@ -3,7 +3,8 @@ import React from 'react'
 import NavSec from './NavSec';
 import Reveal from 'react-reveal/Reveal'
 import AboutInfo from './AboutInfo';
-import Portfolio from '../portfolio/Portfolio';
+import Footer from '../foooter/Footer'
+
 
 const HomeMain = () => {
     return(
@@ -12,6 +13,7 @@ const HomeMain = () => {
                 <NavSec/>
             </Reveal>
             <AboutInfo/>
+            <Footer/>
         </>
     )
 }

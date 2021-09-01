@@ -1,0 +1,978 @@
+//COLORS
+
+$togglerMenu: #faff00;
+
+//HOME
+
+@media screen and (max-width: 1200px) {
+    nav{
+        padding: 12px!important;
+        .navbar-brand{
+            font-size: 20px;
+            padding: 0 10px;
+        }
+        .navbar-toggler{
+            background-color: $togglerMenu;
+            border-radius: 0;
+            span{
+                font-size: 15px;
+            }
+        }
+        .navbar-nav{
+            .nav-item{
+                margin: 20px 20px!important;
+                font-size: 18px!important;
+                text-align: center;
+            }
+        }
+    }
+    .aboutInfo1{
+        display: flex;
+        padding: 75px 35px;
+        .side2{
+            .myImage{
+                width: 330px;
+            }
+        }
+        .side1{
+            width: 100%;
+            h1{
+                font-size: 50px!important;
+            }
+            p{
+                font-size: 20px!important;
+                width: 75%!important;
+                margin: 15px 0 25px!important;
+            }
+            .buttons{
+                .linkBtn{
+                    padding: 10px 10px;
+                    font-size: 20px;
+                }
+            }
+            .socialNet{
+                .links{
+                    padding: 0 10px 0 10px;
+                    svg{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    nav{
+        padding: 15px!important;
+        .navbar-brand{
+            font-size: 20px;
+            padding: 0 10px;
+        }
+        .navbar-toggler{
+            background-color: $togglerMenu;
+            border-radius: 0;
+            span{
+                font-size: 15px;
+            }
+        }
+        .navbar-nav{
+            .nav-item{
+                margin: 20px 0px!important;
+                font-size: 18px!important;
+                text-align: center;
+            }
+        }
+    }
+    .aboutInfo1{
+        display: flex;
+        padding: 75px 30px;
+        .side2{
+            .myImage{
+                width: 320px;
+            }
+        }
+        .side1{
+            width: 100%;
+            h1{
+                font-size: 35px!important;
+            }
+            p{
+                font-size: 18px!important;
+                width: 100%!important;
+                margin: 15px 0 25px!important;
+            }
+            .buttons{
+                .linkBtn{
+                    padding: 10px 10px;
+                    font-size: 20px;
+                }
+            }
+            .socialNet{
+                .links{
+                    padding: 0 10px 0 10px;
+                    svg{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    nav{
+        padding: 12px!important;
+        .navbar-brand{
+            font-size: 18px;
+            padding: 0 10px;
+        }
+        .navbar-toggler{
+            background-color: $togglerMenu;
+            border-radius: 0;
+            span{
+                font-size: 15px;
+            }
+        }
+        .navbar-nav{
+            .nav-item{
+                margin: 20px 0!important;
+                font-size: 17px!important;
+                text-align: center;
+            }
+        }
+    }
+    .aboutInfo1{
+        display: inline-block;
+        padding: 30px 0 30px 0;
+        .side2{
+            text-align: center;
+            .myImage{
+                width: 320px;
+            }
+        }
+        .side1{
+            text-align: center;
+            width: 100%;
+            h1{
+                font-size: 35px!important;
+            }
+            p{
+                font-size: 18px!important;
+                width: 100%!important;
+                padding: 0 15px;
+                margin: 15px 0 25px!important;
+            }
+            .buttons{
+                .linkBtn{
+                    padding: 10px 10px;
+                    font-size: 20px;
+                }
+            }
+            .socialNet{
+                .links{
+                    padding: 0 10px 0 10px;
+                    svg{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    nav{
+        padding: 12px!important;
+        .navbar-brand{
+            font-size: 18px;
+            padding: 0 10px;
+        }
+        .navbar-toggler{
+            background-color: $togglerMenu;
+            border-radius: 0;
+            span{
+                font-size: 15px;
+            }
+        }
+        .navbar-nav{
+            .nav-item{
+                margin: 20px 0!important;
+                font-size: 17px!important;
+                text-align: center;
+            }
+        }
+    }
+    .aboutInfo1{
+        display: inline-block;
+        padding: 30px 0 30px 0;
+        .side2{
+            text-align: center;
+            .myImage{
+                width: 210px;
+            }
+        }
+        .side1{
+            text-align: center;
+            width: 100%;
+            h1{
+                font-size: 27px!important;
+            }
+            p{
+                font-size: 15px!important;
+                width: 100%!important;
+                padding: 0 15px;
+                margin: 15px 0 25px!important;
+            }
+            .buttons{
+                .linkBtn{
+                    padding: 10px 10px;
+                    font-size: 15px;
+                }
+            }
+            .socialNet{
+                .links{
+                    padding: 0 10px 0 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 370px) {
+    nav{
+        padding: 12px!important;
+        .navbar-brand{
+            font-size: 18px;
+            padding: 0 10px;
+        }
+        .navbar-toggler{
+            background-color: $togglerMenu;
+            border-radius: 0;
+            span{
+                font-size: 15px;
+            }
+        }
+        .navbar-nav{
+            .nav-item{
+                margin: 20px 0!important;
+                font-size: 17px!important;
+                text-align: center;
+            }
+        }
+    }
+
+    nav.fixed {
+        padding:  15px 15px !important;
+        
+    }
+
+    .aboutInfo1{
+        display: inline-block;
+        padding: 30px 0 30px 0;
+        .side2{
+            text-align: center;
+            .myImage{
+                width: 180px;
+            }
+        }
+        .side1{
+            text-align: center;
+            width: 100%;
+            h1{
+                font-size: 27px!important;
+            }
+            p{
+                font-size: 15px!important;
+                width: 100%!important;
+                padding: 0 15px;
+                margin: 15px 0 25px!important;
+            }
+            .buttons{
+                .linkBtn{
+                    padding: 10px 10px;
+                    font-size: 15px;
+                }
+            }
+            .socialNet{
+                .links{
+                    padding: 0 10px 0 10px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 330px) {
+    nav{
+        padding: 12px!important;
+        .navbar-brand{
+            font-size: 18px;
+            padding: 0 10px;
+        }
+        .navbar-toggler{
+            outline: none !important;
+            background-color: $togglerMenu;
+            border-radius: 0;
+            span{
+                font-size: 15px;
+            }
+        }
+        .navbar-nav{
+            .nav-item{
+                margin: 20px 0!important;
+                font-size: 17px!important;
+                text-align: center;
+            }
+        }
+    }
+    .aboutInfo1{
+        display: block !important;
+        padding: 0;
+        .side2{
+            text-align: center;
+            .myImage{
+                width: 170px;
+            }
+        }
+        .side1{
+            text-align: center;
+            width: 100%;
+            h1{
+                font-size: 27px!important;
+            }
+            p{
+                font-size: 15px!important;
+                width: 100%!important;
+                padding: 0 15px;
+                margin: 15px 0 25px!important;
+            }
+            .buttons{
+                .linkBtn{
+                    padding: 10px 10px;
+                    font-size: 15px;
+                }
+            }
+            .socialNet{
+                .links{
+                    padding: 0 10px 0 10px;
+                }
+            }
+        }
+    }
+}
+
+// Portfolio
+
+@media screen and (max-width: 1200px) {
+    .titles {
+        h3 {
+            font-size: 30px !important;
+        }
+        p {
+            font-size: 20px !important;
+        }
+    }
+
+    .row {
+        .col-md-12 {
+            padding: 20px;
+            .projectCard {
+                display: inline-block;
+               
+                .projectImage {
+                    width: 100%;
+                }
+                .projectInfo {
+                    margin: 30px 0;
+                    .projectAbout {
+                        .projectName {
+                            font-size: 23px;
+                        }
+                        .projectPara {
+                            font-size: 18px;
+                        }
+                    }
+                }
+                .projectButtons {
+                    a {
+                        padding: 20px 25px !important;
+                        font-size: 18px !important;
+                        border-radius: 10px;
+                        &:nth-child(2) {
+                            margin-left: 10px !important;
+                        }
+                    }
+                }
+            }
+            &:nth-child(2) {
+                .projectCard {
+                    .projectInfo {
+                        .projectAbout{
+                            .projectPara {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .titles {
+        h3 {
+            font-size: 30px !important;
+        }
+        p {
+            font-size: 20px !important;
+        }
+    }
+
+    .row {
+        .col-md-12 {
+            padding: 20px;
+            .projectCard {
+                display: inline-block;
+               
+                .projectImage {
+                    width: 100%;
+                }
+                .projectInfo {
+                    margin: 30px 0;
+                    .projectAbout {
+                        .projectName {
+                            font-size: 23px;
+                        }
+                        .projectPara {
+                            font-size: 18px;
+                        }
+                    }
+                }
+                .projectButtons {
+                    a {
+                        padding: 20px 25px !important;
+                        font-size: 18px !important;
+                        border-radius: 10px;
+                        &:nth-child(2) {
+                            margin-left: 10px !important;
+                        }
+                    }
+                }
+            }
+            &:nth-child(2) {
+                .projectCard {
+                    .projectInfo {
+                        .projectAbout{
+                            .projectPara {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .titles {
+        h3 {
+            font-size: 30px !important;
+        }
+        p {
+            font-size: 20px !important;
+        }
+    }
+
+    .row {
+        .col-md-12 {
+            padding-top: 0;
+            .projectCard {
+                display: inline-block;
+               
+                .projectImage {
+                    width: 100%;
+                }
+                .projectInfo {
+                    margin: 30px 0;
+                    .projectAbout {
+                        .projectName {
+                            font-size: 23px;
+                        }
+                        .projectPara {
+                            font-size: 18px;
+                        }
+                    }
+                }
+                .projectButtons {
+                    a {
+                        padding: 20px 25px !important;
+                        font-size: 18px !important;
+                        border-radius: 10px;
+                        &:nth-child(2) {
+                            margin-left: 10px !important;
+                        }
+                    }
+                }
+            }
+            &:nth-child(2) {
+                .projectCard {
+                    .projectInfo {
+                        .projectAbout{
+                            .projectPara {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .titles {
+        h3 {
+            font-size: 30px !important;
+        }
+        p {
+            font-size: 20px !important;
+        }
+    }
+
+    .row {
+        .col-md-12 {
+            padding-top: 0;
+            .projectCard {
+                display: inline-block;
+               
+                .projectImage {
+                    width: 100%;
+                }
+                .projectInfo {
+                    margin: 30px 0;
+                    .projectAbout {
+                        .projectName {
+                            font-size: 23px;
+                        }
+                        .projectPara {
+                            font-size: 18px;
+                        }
+                    }
+                }
+                .projectButtons {
+                    a {
+                        padding: 20px 25px !important;
+                        font-size: 18px !important;
+                        border-radius: 10px;
+                        &:nth-child(2) {
+                            margin-left: 10px !important;
+                        }
+                    }
+                }
+            }
+            &:nth-child(2) {
+                .projectCard {
+                    .projectInfo {
+                        .projectAbout{
+                            .projectPara {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .titles {
+        h3 {
+            font-size: 30px !important;
+        }
+        p {
+            font-size: 20px !important;
+        }
+    }
+
+    .row {
+        .col-md-12 {
+            padding-top: 0;
+            .projectCard {
+                display: inline-block;
+                margin: 10px;
+                .projectImage {
+                    width: 100%;
+                }
+                .projectInfo {
+                    margin: 30px 0;
+                    .projectAbout {
+                        .projectName {
+                            font-size: 20px;
+                        }
+                        .projectPara {
+                            font-size: 15px;
+                        }
+                    }
+                }
+                .projectButtons {
+                    a {
+                        padding: 13px 10px !important;
+                        font-size: 13px !important;
+                        &:nth-child(2) {
+                            margin-left: 10px !important;
+                        }
+                    }
+                }
+            }
+            &:nth-child(2) {
+                .projectCard {
+                    .projectInfo {
+                        .projectAbout{
+                            .projectPara {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 330px) {
+    .titles {
+        h3 {
+            font-size: 30px !important;
+        }
+        p {
+            font-size: 20px !important;
+        }
+    }
+
+    .row {
+        .col-md-12 {
+            padding-top: 0;
+            .projectCard {
+                display: inline-block;
+                margin: 10px;
+                .projectImage {
+                    width: 100%;
+                }
+                .projectInfo {
+                    margin: 30px 0;
+                    .projectAbout {
+                        .projectName {
+                            font-size: 20px;
+                        }
+                        .projectPara {
+                            font-size: 15px;
+                        }
+                    }
+                }
+                .projectButtons {
+                    a {
+                        padding: 13px 10px !important;
+                        font-size: 13px !important;
+                        &:nth-child(2) {
+                            margin-left: 10px !important;
+                        }
+                    }
+                }
+            }
+            &:nth-child(2) {
+                .projectCard {
+                    .projectInfo {
+                        .projectAbout{
+                            .projectPara {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// Setup
+
+@media screen and (max-width: 1024px) {
+    .setupMain{
+        .setupImage{
+            img{
+                width: 60%;
+                margin-top: 40px;
+            }
+        }
+        .container{
+            .row{
+                .col-md-8{
+                  
+                    .mySetup{
+                        display: inline-block;
+                        padding: 20px 0;
+                        .laptopSpecs, .keyboardSpecs{
+                            ul{
+                                padding-top: 27px;
+                                h2{
+                                    font-size: 22px;
+                                }
+                                li{
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .setupMain{
+        .setupImage{
+            img{
+                width: 330px;
+                margin-top: 10px;
+            }
+        }
+        .container{
+            .row{
+                .col-md-8{
+                    .mySetup{
+                        display: inline-block;
+                        padding: 40px 30px;
+                        .laptopSpecs, .keyboardSpecs{
+                            ul{
+                                padding: 0;
+                                h2{
+                                    font-size: 22px;
+                                }
+                                li{
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .setupMain{
+        .setupImage{
+            img{
+                width: 330px;
+                margin-top: 10px;
+            }
+        }
+        .container{
+            .row{
+                .col-md-8{
+                    .mySetup{
+                        display: inline-block;
+                        padding: 40px 30px;
+                        .laptopSpecs, .keyboardSpecs{
+                            ul{
+                                padding: 0;
+                                h2{
+                                    font-size: 22px;
+                                }
+                                li{
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .setupMain{
+        .setupImage{
+            img{
+                width: 330px;
+                margin-top: 10px;
+            }
+        }
+        .container{
+            .row{
+                .col-md-8{
+                    .mySetup{
+                        display: inline-block;
+                        padding: 20px 10px;
+                        .laptopSpecs, .keyboardSpecs{
+                            ul{
+                                padding: 0;
+                                h2{
+                                    font-size: 20px;
+                                }
+                                li{
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 330px) {
+    .setupMain{
+        .setupImage{
+            img{
+                width: 280px;
+                margin-top: 50px;
+            }
+        }
+        .container{
+            .row{
+                .col-md-8{
+                    .mySetup{
+                        display: inline-block;
+                        padding: 20px 10px;
+                        .laptopSpecs, .keyboardSpecs{
+                            ul{
+                                padding: 0;
+                                h2{
+                                    font-size: 20px;
+                                }
+                                li{
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// About-me
+
+
+
+@media screen and (max-width: 1024px) {
+    .info {
+        display: inline-block !important;
+        padding: 23px !important;
+        .myImage {
+            width: 100% !important;
+        }
+        span {
+            .aboutmeText {
+                margin-top: 30px;
+                padding: 0 0 30px 0;
+                font-size: 21px;
+                width: 87%;
+                color: white;
+                font-family: 'Monrserrant', sans-serif;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .info {
+        display: inline-block !important;
+        padding: 23px !important;
+        .myImage {
+            width: 100% !important;
+        }
+        span {
+            .aboutmeText {
+                margin-top: 30px;
+                padding: 0 0 30px 0;
+                font-size: 16px;
+                width: 100%;
+                color: white;
+                font-family: 'Monrserrant', sans-serif;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .info {
+        display: inline-block !important;
+        padding: 23px !important;
+        .myImage {
+            width: 100% !important;
+        }
+        span {
+            .aboutmeText {
+                margin-top: 30px;
+                padding: 0 0 30px 0;
+                font-size: 16px;
+                width: 100%;
+                color: white;
+                font-family: 'Monrserrant', sans-serif;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .info {
+        display: inline-block !important;
+        padding: 23px !important;
+        .myImage {
+            width: 100% !important;
+        }
+        span {
+            .aboutmeText {
+                margin-top: 30px;
+                padding: 0 0 30px 15px;
+                font-size: 15px;
+                width: 100%;
+                color: white;
+                font-family: 'Monrserrant', sans-serif;
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 330px) {
+    .info {
+        display: inline-block !important;
+        padding: 23px !important;
+        .myImage {
+            width: 100% !important;
+        }
+        span {
+            .aboutmeText {
+                margin-top: 30px;
+                padding: 0 0 30px 15px;
+                font-size: 15px;
+                width: 100%;
+                color: white;
+                font-family: 'Monrserrant', sans-serif;
+            }
+        }
+    }
+}
+
+// Footer
+
+@media screen and (max-width: 500px) {
+    .footer {
+        p {
+            font-size: 13px;
+            padding: 5px;
+        }
+    }
+}

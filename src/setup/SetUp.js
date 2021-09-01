@@ -1,11 +1,11 @@
-import React from 'react'
-import NavSec from '../home/NavSec';
+import React from 'react';
+import NavSec from '../home/NavSec'
+import SetUpMain from './SetUpMain'
 import Reveal from 'react-reveal/Reveal'
-import PageInfo from './PageInfo';
-import Project from './Project'
+import PageInfo from './PageInfo'
 import Footer from '../foooter/Footer'
 
-const Portfolio = () => {
+const SetUp = () => {
     return (
         <>
             <Reveal effect="animNav" duration="750">
@@ -14,12 +14,10 @@ const Portfolio = () => {
             <Reveal effect="fadeInUp" duration="1250">
                 <PageInfo/>
             </Reveal>
-            <Reveal effect="portfolioAnim" duration="1260">
-                <Project/>
-            </Reveal>
-            <Footer />
+            <SetUpMain/>
+            <Footer/>
         </>
     )
 }
 
-export default Portfolio;
+export default SetUp;

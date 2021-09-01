@@ -30,18 +30,18 @@ const Project = () => {
                     {projects.map((project, index) =>(
                         <Col md="12" key={index}>
                             <div className="projectCard">
-                                <img src={project.image} alt="portfolio image"/>
-                                <div className="card-side">
+                                <img className="projectImage" src={project.image} alt="portfolio image"/>
+                                <div className="projectInfo">
                                     <div className="projectAbout">
-                                        <h3>{project.ProjectName}</h3>
-                                        <p>{project.projectDoc}</p>
+                                        <h3 className="projectName">{project.ProjectName}</h3>
+                                        <p className="projectPara">{project.projectDec}</p>
                                     </div>
                                     <div className="projectButtons">
-                                        <a href="#" target="_blank" className="nuttons">
+                                        <a href={project.code} target="_blank" className="nuttons">
                                             Sourse <GitHubIcon/>
                                         </a>
-                                        <a href="#" target="_blank" className="nuttons">
-                                            Demo  <LinkIcon/>
+                                        <a href={project.netlify} target="_blank" className="nuttons">
+                                            Netlify  <LinkIcon/>
                                         </a>
                                     </div>
                                 </div>
